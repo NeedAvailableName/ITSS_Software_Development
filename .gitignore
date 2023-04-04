@@ -1,0 +1,8 @@
+*.lock
+*.exe
+*.bak
+/bin/
+*.iml
+.idea/
+out/
+/src/lib/javafx-sdk-15.0.1

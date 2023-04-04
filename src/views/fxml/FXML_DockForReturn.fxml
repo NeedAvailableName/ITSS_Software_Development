@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="121.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fx:id="dockImage" fitHeight="108.0" fitWidth="115.0" layoutX="17.0" layoutY="36.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../assets/docks/phamngocthach.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="dockName" layoutX="153.0" layoutY="14.0" text="Dock X" textFill="#20c156">
+            <font>
+                <Font name="Segoe UI Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="153.0" layoutY="74.0" text="Available slots:" textFill="#20c156">
+            <font>
+                <Font name="Segoe UI Bold Italic" size="16.0" />
+            </font>
+        </Label>
+      <Label fx:id="dockAddressTxt" layoutX="237.0" layoutY="48.0" text="Who knows dafug where it is">
+         <font>
+            <Font name="Segoe UI Bold" size="16.0" />
+         </font>
+      </Label>
+        <Label layoutX="153.0" layoutY="48.0" text="Address:" textFill="#20c156">
+            <font>
+                <Font name="Segoe UI Bold Italic" size="16.0" />
+            </font>
+        </Label>
+      <Label fx:id="availableSlotsTxt" layoutX="279.0" layoutY="74.0" prefHeight="19.0" prefWidth="60.0" text="100">
+         <font>
+            <Font name="Segoe UI Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnBtn" layoutX="221.0" layoutY="112.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="175.0" text="Return bike here" textFill="#20c156">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="20.0" top="20.0" />
+    </padding>
+</AnchorPane>
